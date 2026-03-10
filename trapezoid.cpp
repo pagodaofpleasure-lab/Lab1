@@ -15,7 +15,7 @@ int trapezoid() {
     cin >> height;
 
     
-    if (base1 <= 0 && base2 <= 0 && leg1 <= 0 && leg2 <= 0 && height <= 0) {
+    if (base1 <= 0 || base2 <= 0 || leg1 <= 0 || leg2 <= 0 || height <= 0) {
         cout << "Ошибка: все значения должны быть положительными" << endl;
         return 1;
     }
