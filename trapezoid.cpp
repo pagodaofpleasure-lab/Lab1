@@ -3,26 +3,26 @@
 using namespace std;
 
 int trapezoid() {
-    double a, b, c, d, h;
+    double base1, base2, leg1, leg2, height;
 
-    cout << "Введите основания трапеции (a и b): ";
-    cin >> a >> b;
+    cout << "Введите основания трапеции: ";
+    cin >> base1 >> base2;
 
-    cout << "Введите боковые стороны (c и d): ";
-    cin >> c >> d;
+    cout << "Введите боковые стороны: ";
+    cin >> leg1 >> leg2;
 
-    cout << "Введите высоту (h): ";
-    cin >> h;
+    cout << "Введите высоту: ";
+    cin >> height;
 
     
-    if (a <= 0 && b <= 0 && c <= 0 && d <= 0 && h <= 0) {
+    if (base1 <= 0 && base2 <= 0 && leg1 <= 0 && leg2 <= 0 && height <= 0) {
         cout << "Ошибка: все значения должны быть положительными" << endl;
         return 1;
     }
 
-    double perimeter = a + b + c + d;
-    double middleLine = (a + b) / 2;
-    double area = middleLine * h;
+    double perimeter = base1 + base2 + leg1 + leg2;
+    double middleLine = (base1 + base2) / 2;
+    double area = middleLine * height;
 
     cout << "Периметр: " << perimeter << endl;
     cout << "Средняя линия: " << middleLine << endl;
