@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int triangel() {
+int triangle() {
     double a, b, c;
     cout << "Введите три стороны треугольника: ";
     cin >> a >> b >> c;
