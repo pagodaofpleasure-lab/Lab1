@@ -1,5 +1,6 @@
 #include <iostream>
 #include "triangle.h"
+#include "trapezoid.h"
 #include "pryam.h"
 
 using namespace std;
@@ -24,7 +25,10 @@ int main(){
     cout << "Площадь:  " << area(a,b) << endl;
     cout << "Периметр: " << perimetr(a,b) << endl;
     cout << "диагональ: " << diagonal(a,b) << endl;
-
+    
+    //------ТРАПЕЦИЯ---------
+    cout << "task 3" << endl;
+    trapezoid();
   
 
 }
