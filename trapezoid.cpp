@@ -16,18 +16,16 @@ int trapezoid() {
 
     
 
-    if ((base1 <= 0 && base2 <= 0 && leg1 <= 0 && leg2 <= 0 && height <= 0)||
-	(height > leg1 || height > leg2)) {
+    if (base1 <= 0 || base2 <= 0 || leg1 <= 0 || leg2 <= 0 || height <= 0){
         cout << "Ошибка: все значения должны быть положительными" << endl;
         return 1;
     }
-    if (base1+base2+leg1<leg2 || base1+base2+leg2<leg1 || base2+leg1+leg2 <base1||
-         base1+leg1+leg2<base2){
+    if (base1+base2+leg1<leg2 || base1+base2+leg2<leg1 || base2+leg1+leg2 <base1 || base1+leg1+leg2<base2){
     	cout << "Ошибка: нарушено правило треугольника для трапеции" << endl;
         return 1;
     }
     if (height > leg1 || height > leg2) {
-    	cout << "Ошибка: высота не может быть больше одной из боковых сторон" << endl;
+    	cout << "Ошибка: высота не может быть больше любой из боковых сторон" << endl;
         return 1;
     }
 
@@ -41,8 +39,3 @@ int trapezoid() {
 
     return 0;
 }
-int main(){
-	trapezoid();
-	return 0;
-}
-
