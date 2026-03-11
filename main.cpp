@@ -7,11 +7,9 @@ using namespace std;
 
 
 int main(){
-    cout << "task 2" << endl;
-    triangle();
- 
 
-    //------ПРЯМОУГОЛЬНИК---------
+    cout << "task 1" << endl;
+        //------ПРЯМОУГОЛЬНИК---------
     double a,b;
     cout << "Введите первую сторону прямоугольника ";
     cin >> a;
@@ -25,9 +23,18 @@ int main(){
     cout << "Площадь:  " << area(a,b) << endl;
     cout << "Периметр: " << perimetr(a,b) << endl;
     cout << "диагональ: " << diagonal(a,b) << endl;
+
+
+     //------Треугольник---------
+    cout << "task 2" << endl;
+    cout << "---------Треугольник-------" << endl;
+    triangle();
+
     
     //------ТРАПЕЦИЯ---------
+    
     cout << "task 3" << endl;
+     cout << "---------ТРАПЕЦИЯ-------" << endl;
     trapezoid();
   
 
