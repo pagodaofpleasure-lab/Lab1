@@ -15,7 +15,7 @@ int triangle() {
 
         cout << "Периметр: " << perimeter << endl;
         cout << "Площадь: " << area << endl;
-
+	// проверка треугольника равнобедренности
         if (a == b || b == c || a == c)
             cout << "Треугольник равнобедренный" << endl;
         else
