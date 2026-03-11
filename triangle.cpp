@@ -12,10 +12,10 @@ int triangel() {
         double perimeter = a + b + c;
         double p = perimeter / 2;
         double area = sqrt(p * (p - a) * (p - b) * (p - c));
-
+	
         cout << "Периметр: " << perimeter << endl;
         cout << "Площадь: " << area << endl;
-
+	//апрверка равнобндренности
         if (a == b || b == c || a == c)
             cout << "Треугольник равнобедренный" << endl;
         else
