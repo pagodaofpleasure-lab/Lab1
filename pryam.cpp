@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-
+// ploshad
 double area(double a,double b) {
     return a * b;
 }
