@@ -13,6 +13,6 @@ int main() {
     cout << "Длина: " << 2 * PI * r << endl;
     cout << "Площадь круга: " << PI * r * r << endl;
     cout << "Площадь сектора: " << (PI * r * r * a) / 360.0 << endl;
-
+	//testing
     return 0;
 }
