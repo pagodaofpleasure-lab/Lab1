@@ -20,6 +20,6 @@ int main() {
         cout << "Площадь круга: " << PI * r * r << endl;
         cout << "Площадь сектора: " << (PI * r * r * a) / 360.0 << endl;
     }
-	//defending my project
+	//defending my project and test
     return 0;
 }
