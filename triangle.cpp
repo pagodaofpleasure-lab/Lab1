@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int triangel() {
+int triangle() {
     double a, b, c;
     cout << "Введите три стороны треугольника: ";
     cin >> a >> b >> c;
@@ -15,6 +15,7 @@ int triangel() {
 	
         cout << "Периметр: " << perimeter << endl;
         cout << "Площадь: " << area << endl;
+
 	//апрверка равнобндренности
         if (a == b || b == c || a == c)
             cout << "Треугольник равнобедренный" << endl;

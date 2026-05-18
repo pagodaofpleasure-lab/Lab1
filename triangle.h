@@ -1,8 +1,8 @@
-#ifndef TRIANGEL_H
-#define TRIANGEL_H
+#ifndef TRIANGLE_H
+#define TRIANGLE_H
 
 using namespace std;
 
-int triangel();
+void triangle();
 
 #endif
